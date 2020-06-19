@@ -6,7 +6,8 @@
 
 
 def vol(rad):
-    pi =
-    return (4/3)
+    pi = 3.14
+    print((4/3) * pi * (rad**3))
+
 
 vol(2)
