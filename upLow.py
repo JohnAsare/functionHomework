@@ -19,8 +19,10 @@ def up_low(s):
         elif letter.islower():
             lowers += letter
     print(f'No. of Upper case characters : {len(uppers)}')
-    print(f'No. of Lower case characters : {len(lowers)}')
+    print(f'No. of Lower case characters : {len(lowers)} \n')
+    print('#########################################')
 
 
 s = 'Hello Mr. Rogers, how are you this fine Tuesday?'
 up_low(s)
+up_low('Hi, My name is John Asare')
