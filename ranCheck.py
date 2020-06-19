@@ -6,7 +6,10 @@
 
 
 def ran_check(num, low, high):
-    pass
+    for i in range(low, high + 1):
+        if i == num:
+            return f'{num} is in the range between {low} and {high}'
 
 
-ran_check(5, 2, 7)
+print(ran_check(5, 2, 7))
+print(ran_check(3, 1, 10))
