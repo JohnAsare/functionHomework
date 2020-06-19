@@ -13,3 +13,5 @@ def ran_check(num, low, high):
 
 print(ran_check(5, 2, 7))
 print(ran_check(3, 1, 10))
+print(ran_check(5, 1, 5))
+
