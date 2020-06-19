@@ -11,7 +11,15 @@ No. of Lower case Characters : 33 """
 
 
 def up_low(s):
-    pass
+    uppers = ''
+    lowers = ''
+    for letter in s:
+        if letter.isupper():
+            uppers += letter
+        elif letter.islower():
+            lowers += letter
+    print(f'No. of Upper case characters : {len(uppers)}')
+    print(f'No. of Lower case characters : {len(lowers)}')
 
 
 s = 'Hello Mr. Rogers, how are you this fine Tuesday?'
