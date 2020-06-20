@@ -8,6 +8,7 @@ Unique List : [1, 2, 3, 4, 5] """
 
 
 def unique_list(lst):
+    # Using return instead of storing
     return list(set(lst))
 
 
