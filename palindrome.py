@@ -7,6 +7,12 @@ e.g., madam or nurses run."""
 
 
 def palindrome(s):
-    print(reversed(s))
+    rvsd = ''
+    for letter in reversed(s):
+        rvsd += letter
+    return rvsd == s
 
-palindrome('John')
+
+print(palindrome('helleh'))
+print(palindrome('John'))
+
