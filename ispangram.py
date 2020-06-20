@@ -11,9 +11,9 @@ import string
 def ispangram(str1, alphabet=string.ascii_lowercase):
     lower_strl = str1.lower()
     for letter in lower_strl:
-        return letter in alphabet
+        print(letter in alphabet)
 
 
-print(ispangram("The"))
+print(ispangram("The quick brown fox jumps over the lazy dog"))
 
 
