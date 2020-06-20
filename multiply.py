@@ -7,7 +7,10 @@ Expected Output : -24 """
 
 
 def multiply(numbers):
-    pass
+    result = 1
+    for number in numbers:
+        result *= number
+    return result
 
 
-multiply([1, 2, 3, -4])
+print(multiply([1, 2, 3, -4]))
