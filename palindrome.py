@@ -7,6 +7,7 @@ e.g., madam or nurses run."""
 
 
 def palindrome(s):
+    s = s.replace(' ', '').lower()
     rvsd = ''
     for letter in reversed(s):
         rvsd += letter
@@ -15,4 +16,6 @@ def palindrome(s):
 
 print(palindrome('helleh'))
 print(palindrome('John'))
+print(palindrome('nurses run'))
+print(palindrome('Nurses run'))
 
