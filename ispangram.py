@@ -9,11 +9,11 @@ import string
 
 
 def ispangram(str1, alphabet=string.ascii_lowercase):
-    lower_strl = str1.lower()
-    for letter in lower_strl:
-        return letter in alphabet
+    str1 = set(str1.replace(' ', '').lower())
+    alpha_set = set(alphabet)
+    return str1 == alpha_set
 
 
-print(ispangram("The "))
+print(ispangram("The quick"))
 
 
