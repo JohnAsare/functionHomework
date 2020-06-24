@@ -14,6 +14,6 @@ def ispangram(str1, alphabet=string.ascii_lowercase):
     return str1 == alpha_set
 
 
-print(ispangram("The quick"))
+print(ispangram("The quick brown fox jumps over the lazy dog"))
 
 
